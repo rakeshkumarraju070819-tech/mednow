@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 mongoose
   .connect(process.env.DB_CONNECTION)
   .then(() => {
-    console.log('Successfully connected to MongoDB Atlas');
+    console.log('Successfullyy connected to MongoDB Atlas');
     app.listen(process.env.PORT, () => {
       console.log(`Server running on port ${process.env.PORT}`);
     });
